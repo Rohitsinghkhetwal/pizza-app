@@ -1,0 +1,51 @@
+.image-container {
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 50%;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  box-shadow: 0 0 10px 12px rgba(100, 100, 100, 0.1);
+  padding: 4px;
+  margin-left: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+}
+.heading h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.heading h4{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container button{
+    height: 2rem;
+    width: 13rem;
+    background-color: rgba(55, 65, 45, 0.835);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 12px rgba(100, 100, 100, 0.1);
+    margin: 0.3rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: white;
+    
+    
+}
+.image-container button:hover {
+    background-color: rgba(110, 120, 94, 0.667);
+}
